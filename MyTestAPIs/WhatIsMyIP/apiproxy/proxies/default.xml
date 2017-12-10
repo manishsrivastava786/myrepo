@@ -7,12 +7,7 @@
             <Step>
                 <Name>Verify_Access_Token_OAuthv2</Name>
             </Step>
-            <!--        <Step>
-                <Name>Invalid_Scope_Raise_Fault</Name>
-                <Condition>scope != READ</Condition>
-            </Step>
         
-        -->
             <Step>
                 <Name>Invalid_User_Raise_Fault</Name>
                 <!--<Condition>accesstoken.user_id != request.queryparam.user_id</Condition> -->
