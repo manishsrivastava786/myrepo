@@ -13,7 +13,7 @@
     <Flows/>
     <HTTPTargetConnection>
         <Properties/>
-        <URL>https://mocktarget.apigee.net/ip</URL>
+        <URL>http://mocktarget.apigee.net/ip</URL>
         <!--    <LoadBalancer>
             <Server name="epims"/>
         </LoadBalancer>
