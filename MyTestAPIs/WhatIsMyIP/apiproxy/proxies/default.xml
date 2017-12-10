@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>Verify_Access_Token_OAuthv2</Name>
+            </Step>
+            <!--        <Step>
+                <Name>Invalid_Scope_Raise_Fault</Name>
+                <Condition>scope != READ</Condition>
+            </Step>
+        
+        -->
+            <Step>
+                <Name>Invalid_User_Raise_Fault</Name>
+                <!--<Condition>accesstoken.user_id != request.queryparam.user_id</Condition> -->
+                <Condition>accesstoken.security != request.header.MyPIN</Condition>
+            </Step>
+            <Step>
+                <Name>Remove_Platform_Header_Assign_Message</Name>
+            </Step>
+        </Request>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows/>
+    <HTTPProxyConnection>
+        <BasePath>/myip</BasePath>
+        <Properties/>
+        <VirtualHost>default</VirtualHost>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="default">
+        <TargetEndpoint>default</TargetEndpoint>
+    </RouteRule>
+</ProxyEndpoint>

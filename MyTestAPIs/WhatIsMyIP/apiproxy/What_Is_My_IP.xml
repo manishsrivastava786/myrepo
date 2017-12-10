@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="5" name="What_Is_My_IP">
+    <Basepaths>/myip</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1510638488986</CreatedAt>
+    <CreatedBy>manish8.s@tcs.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>What_Is_My_IP</DisplayName>
+    <LastModifiedAt>1511716837624</LastModifiedAt>
+    <LastModifiedBy>manish8.s@tcs.com</LastModifiedBy>
+    <Policies>
+        <Policy>Access_Token_Expired_Raise_Fault</Policy>
+        <Policy>Invalid_Access_Token_Raise_Fault</Policy>
+        <Policy>Invalid_Scope_Raise_Fault</Policy>
+        <Policy>Invalid_User_Raise_Fault</Policy>
+        <Policy>Remove_Platform_Header_Assign_Message</Policy>
+        <Policy>Verify_Access_Token_OAuthv2</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>

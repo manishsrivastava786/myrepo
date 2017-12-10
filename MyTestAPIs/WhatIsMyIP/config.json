@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "test",
+            "policies": [
+               ],
+            "proxies": [
+                
+            ],
+            "targets": [
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/TargetEndpoint/HTTPTargetConnection/URL",
+                            "value": "https://mocktarget.apigee.net/ip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "prod",
+            "policies": [
+                
+            ],
+            "proxies": [
+                
+            ],
+            "targets": [
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/TargetEndpoint/HTTPTargetConnection/URL",
+                            "value": "https://mocktarget.apigee.net/ip"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
