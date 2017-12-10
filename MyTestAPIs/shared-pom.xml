@@ -99,11 +99,11 @@
         <profile>
             <id>prod</id>
             <properties>
-                <org>tetrapak</org>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
+                <org>manishsrivastava</org>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
                 <options>validate</options>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
                 <apigee.profile>prod</apigee.profile>
-                <apigee.env>sandbox</apigee.env>
-                <apigee.hosturl>https://api-mgmt-ui-dev.tetrapak.com:9443</apigee.hosturl>
+                <apigee.env>prod</apigee.env>
+                <apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
                 <apigee.apiversion>v1</apigee.apiversion>
                 <apigee.org>${org}</apigee.org>
                 <apigee.username>${username}</apigee.username>
