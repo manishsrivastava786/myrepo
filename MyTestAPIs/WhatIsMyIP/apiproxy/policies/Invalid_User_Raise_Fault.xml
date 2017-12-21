@@ -4,7 +4,7 @@
     <Properties/>
     <FaultResponse>
         <Set>
-            <Payload contentType="application/json">\{"error_code":"401","error_type":"Unauthorized","error_desc":"Unauthorized user"}</Payload>
+            <Payload contentType="application/json">\{"error_code":"401","error_type":"Unauthorized","error_desc":"You are not Unauthorized user"}</Payload>
             <StatusCode>401</StatusCode>
             <ReasonPhrase>Unauthorized</ReasonPhrase>
         </Set>
