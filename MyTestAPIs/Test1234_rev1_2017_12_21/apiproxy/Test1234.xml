@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Test1234">
+    <Basepaths>/test1234</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1513847878713</CreatedAt>
+    <CreatedBy>manish8.s@tcs.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Test1234</DisplayName>
+    <LastModifiedAt>1513847907769</LastModifiedAt>
+    <LastModifiedBy>manish8.s@tcs.com</LastModifiedBy>
+    <Policies>
+        <Policy>Spike-Arrest-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
