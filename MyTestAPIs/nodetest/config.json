@@ -8,15 +8,7 @@
                 
             ],
             "targets": [
-                {
-                    "name": "default.xml",
-                    "tokens": [
-                        {
-                            "xpath": "/TargetEndpoint/HTTPTargetConnection/URL",
-                            "value": "https://mocktarget.apigee.net/ip"
-                        }
-                    ]
-                }
+                
             ]
         },
         {
@@ -28,15 +20,7 @@
                 
             ],
             "targets": [
-                {
-                    "name": "default.xml",
-                    "tokens": [
-                        {
-                            "xpath": "/TargetEndpoint/HTTPTargetConnection/URL",
-                            "value": "https://mocktarget.apigee.net/ip"
-                        }
-                    ]
-                }
+               
             ]
         }
     ]
